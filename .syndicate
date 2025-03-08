@@ -1,0 +1,9 @@
+name: aws_tasks
+build_projects_mapping:
+  nodejs: app
+lambdas:
+  hello_world:
+    runtime: nodejs
+locks: {}
+events: []
+latest_deploy: {}
