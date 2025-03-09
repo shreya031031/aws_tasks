@@ -4,6 +4,103 @@ build_projects_mapping:
 lambdas:
   hello_world:
     runtime: nodejs
-locks: {}
-events: []
-latest_deploy: {}
+locks:
+  modification_lock:
+    last_modification_date: '2025-03-09T14:52:36Z'
+    is_locked: false
+    initiator: shreya_katukuri
+events:
+- operation: deploy
+  initiator: shreya_katukuri
+  bundle_name: aws_tasks_250309.202217
+  deploy_name: aws-tasks
+  time_start: '2025-03-09T20:22:35Z'
+  time_end: '2025-03-09T20:22:36Z'
+  duration_sec: 1.881
+  status: aborted
+  rollback_on_error: false
+- operation: package_meta
+  initiator: shreya_katukuri
+  bundle_name: aws_tasks_250309.202217
+  time_start: '2025-03-09T20:22:19Z'
+  time_end: '2025-03-09T20:22:19Z'
+  duration_sec: 0.035
+  status: failed
+- operation: assemble
+  initiator: shreya_katukuri
+  bundle_name: aws_tasks_250309.202217
+  time_start: '2025-03-09T20:22:19Z'
+  time_end: '2025-03-09T20:22:19Z'
+  duration_sec: 0.029
+  status: succeeded
+- operation: assemble_node
+  initiator: shreya_katukuri
+  bundle_name: aws_tasks_250309.202217
+  time_start: '2025-03-09T20:22:19Z'
+  time_end: '2025-03-09T20:22:19Z'
+  duration_sec: 0.002
+  status: succeeded
+- operation: test
+  initiator: shreya_katukuri
+  time_start: '2025-03-09T20:22:19Z'
+  time_end: '2025-03-09T20:22:19Z'
+  duration_sec: 0.001
+  status: succeeded
+- operation: deploy
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  deploy_name: task02
+  time_start: '2025-03-08T22:21:13Z'
+  time_end: '2025-03-08T22:21:34Z'
+  duration_sec: 21.005
+  status: succeeded
+  rollback_on_error: false
+- operation: build
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  time_start: '2025-03-08T22:20:51Z'
+  time_end: '2025-03-08T22:20:58Z'
+  duration_sec: 7.061
+  status: succeeded
+- operation: upload
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  time_start: '2025-03-08T22:20:56Z'
+  time_end: '2025-03-08T22:20:58Z'
+  duration_sec: 1.959
+  status: succeeded
+- operation: package_meta
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  time_start: '2025-03-08T22:20:56Z'
+  time_end: '2025-03-08T22:20:56Z'
+  duration_sec: 0.005
+  status: succeeded
+- operation: assemble
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  time_start: '2025-03-08T22:20:53Z'
+  time_end: '2025-03-08T22:20:56Z'
+  duration_sec: 3.192
+  status: succeeded
+- operation: assemble_node
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  time_start: '2025-03-08T22:20:53Z'
+  time_end: '2025-03-08T22:20:56Z'
+  duration_sec: 3.184
+  status: succeeded
+- operation: test
+  initiator: shreya_katukuri
+  time_start: '2025-03-08T22:20:53Z'
+  time_end: '2025-03-08T22:20:53Z'
+  duration_sec: 0.001
+  status: succeeded
+latest_deploy:
+  initiator: shreya_katukuri
+  bundle_name: task02_250308.222051
+  deploy_name: task02
+  time_start: '2025-03-08T22:21:13Z'
+  time_end: '2025-03-08T22:21:34Z'
+  duration_sec: 21.005
+  is_succeeded: true
