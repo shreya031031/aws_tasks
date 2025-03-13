@@ -1,4 +1,3 @@
-
 # task07
 
 High level project overview - business value it brings, non-detailed technical overview.
